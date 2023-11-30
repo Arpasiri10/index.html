@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgister</title>
+
+    <style>
+            /* สิ่งที่อยู่ตรงนี้มีไว้แต่ให้ dev อ่าน*/
+            /*1. แต่ง id class DOM*/
+            body {background-color: rgb(245, 214, 235);}
+        @font-face {
+            font-family: 'kanit';
+            src: url('./Kanit/Kanit-Regular.ttf');
+        }
+            body {font-family: 'kanit';}
+            #register {font-size: 24px; 
+                color: rgb(160, 70, 245); 
+                font-weight: 800;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: lightyellow;
+                padding-left: 20px;
+                border: 1px palevioletred solid;}
+            .header-form {font-weight: 800;}
+    </style>
+</head>
+<body>
+    <! แสดงออกหน้าจอ Browser>
+    <div id="register">Resgister Form </div>  
+    <span class="header-from"> First Name </span>
+    <input class="from" type="text">
+    <span class="header-from"> Last Neme </span> 
+    <input class="from" type="text"> <br>   
+    <span class="header-from"> Age </span>
+    <input class="from" type="number" min="0" max="100">
+<div>
+    Gender 
+        <div> <input name="gender" type="radio"> Male </div>
+        <div> <input name="gender" type="radio"> Famale </div>
+        <div> <input name="gender" type="radio"> Not Specified </div>
+</div>
+<div>
+    Interest
+    <div> <input name="interest" type="checkbox"> Book </div>
+    <div> <input name="interest" type="checkbox"> Game </div>
+    <div> <input name="interest" type="checkbox"> Movie </div>
+</div>
+</div>
+<div>
+    Personality Traits
+    <div> <textarea ></textarea>
+    </div>
+</div>
+<button>submit</button>
+
+</body>
+</html>
